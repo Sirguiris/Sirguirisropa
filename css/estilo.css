@@ -4,6 +4,9 @@ selector {
   propiedad:valor;
 }
 */
+@import url();
+
+
 
 .grid-container{ /*espacio entre botones*/
 display: grid;
@@ -173,4 +176,14 @@ h6{
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(177, 177, 177);
 }
-@media (max-width: 768px)
+
+  @media screen and (max-widt: 1024px){
+  }
+
+
+
+.bg.gradiente{
+  color: white;
+  font-size: x-large;
+  text-align: center;
+}

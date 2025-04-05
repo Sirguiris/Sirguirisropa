@@ -1,0 +1,61 @@
+h1{ 
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+/* Anidamiento */
+
+    nav {
+        ul {
+            margin: 0;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+
+// mixin sin parametros
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.contenedor_botones_index_imagen{ /*imagenes polaroid*/
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    width: 100%; 
+    max-width: 200px;
+    height: auto;
+    }
+
+    .contenedor_de_modelos{  /*encabezados modelos con ropa*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        }
+
+.header-contenedor_botones_index{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    margin-right: 1px;
+}
+
