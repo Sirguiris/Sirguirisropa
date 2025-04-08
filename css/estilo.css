@@ -4,7 +4,9 @@ selector {
   propiedad:valor;
 }
 */
-@import url();
+body {
+  overflow-x: hidden;
+}
 
 
 
@@ -16,17 +18,50 @@ margin: auto;
   }
 
 
-.grid-item{ /*botones*/
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.boton-custom{ /*botones*/
+font-family: 'Bebas Neue', sans-serif;
+font-size: 1.5rem;
 color: #ffffff;
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
- 
+.img-hover {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.img-hover:hover {
+  filter: sepia(20%) brightness(115%) saturate(120%);
+  transform: scale(1.03);
+}
+
+
+
+
+
+.boton-custom {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.boton-custom:hover {
+  background-color: #ff4d00;
+  color: black;
+}
+
+
+
+
 .contenedor_botones_index{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
@@ -49,6 +84,7 @@ height: auto;
 #marca_sirguiris{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 border: 10px solid #ffffff;
+width: 100%; 
 padding: 10px;
 text-align: center;
 text-decoration: none;
@@ -153,12 +189,12 @@ h3{
 }
 
 h4{
-  font-family: 'Poppins', sans-serif; 
+  font-family:'Bebas Neue', sans-serif;
   font-size: 1.8rem;
   font-weight: bold; 
   background-color: black; 
   color: white; 
-  padding: 10px;
+  padding: 5px;
 text-align: left;
   border-radius: 5px; 
 }
