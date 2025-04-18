@@ -42,8 +42,6 @@ color: #ffffff;
 
 
 
-
-
 .boton-custom {
   background-color: #1a1a1a;
   color: white;
@@ -213,13 +211,37 @@ h6{
   background-color: rgb(177, 177, 177);
 }
 
-  @media screen and (max-widt: 1024px){
-  }
-
-
 
 .bg.gradiente{
   color: white;
   font-size: x-large;
   text-align: center;
 }
+
+.map-responsive {
+  border: 5px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contacto-box {
+  background-color: #f5f5f5;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 15px;
+  color: #000;
+  font-size: 1rem;
+}
+
+.contacto-box a {
+  color: #ff4d00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto-box a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px)
