@@ -1,4 +1,7 @@
+// main.scss
+@import 'reset';
 @import 'variables';
-@import 'mixins';
-@import 'keyframes';
-@import 'layout';
+@import 'header';
+@import 'footer';
+@import 'home'; 
+

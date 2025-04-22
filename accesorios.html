@@ -1,229 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accesoriossirguiris</title>
-    <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accesorios Sirguiris</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-<a href="./index.html">
-<img src="img/logo_marca.png"width="50"></a>
-<h2>AccesorioSirguiris</h2>
-<header>
 
-<div class="contenedor_de_modelos">    
-<img src="img/accesorios_modelo_1.jpg"class="modelos_de_ropa">
-<img src="img/accesorios_modelo_2.jpg"class="modelos_de_ropa">
-<img src="img/accesorios_modelo_3.jpg"class="modelos_de_ropa">
-</div>
+  <header class="p-3">
+  <!-- Logo y título -->
+  <div class="text-right my-3">
+    <a href="../index.html">
+      <img src="img/logo_marca_inicio.png" width="100" alt="Logo Sirguiris">
+    </a>
+    <h2 class="fw-bold">Remeras Sirguiris</h2>
+  </div>
 
-<header>
+    <div class="contenedor_de_modelos my-3">
+      <img src="img/accesorios_modelo_1.jpg" class="modelos_de_ropa" alt="Modelo 1">
+      <img src="img/accesorios_modelo_2.jpg" class="modelos_de_ropa" alt="Modelo 2">
+      <img src="img/accesorios_modelo_3.jpg" class="modelos_de_ropa" alt="Modelo 3">
+    </div>
+  </header>
+
+  <main>
     <div class="container my-5">
-        <div class="row g-4">
-          
-          <!-- Gorro -->
-          <div class="col-md-6 col-lg-4">
-            <div class="producto">
-              <h4>Gorro</h4>
-              <div id="carouselGorro" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/gorro_negro.jpg" class="d-block w-100 img-fluid img-fluid img-hover" alt="Gorro negro">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/gorro_rojo.jpg" class="d-block w-100 img-fluid" alt="Gorro rojo">
-                  </div>
+      <div class="row g-4">
+
+        <!-- Gorro -->
+        <div class="col-md-6 col-lg-4">
+          <div class="producto">
+            <h4 class="titulo-producto">Gorro</h4>
+            <div id="carouselGorro" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/gorro_negro.jpg" class="d-block w-100 img-fluid img-hover" alt="Gorro negro">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGorro" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselGorro" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-              <div class="detalles_del_producto">
-                <h5>Detalles del Producto</h5>
-                <ul>
-                  <li>50% poliacrílico reciclado</li>
-                  <li>Hilo alta calidad</li>
-                  <li>Logotipo bordado</li>
-                  <li>Bordes doblados</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-
-
-          <!-- Gorra -->
-          <div class="col-md-6 col-lg-4">
-            <div class="producto">
-              <h4>Gorra</h4>
-              <div id="carouselGorra" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/gorra_negra.jpg" class="d-block w-100 img-fluid img-hover" alt="Gorra negra">
-                  </div>
+                <div class="carousel-item">
+                  <img src="img/gorro_rojo.jpg" class="d-block w-100 img-fluid" alt="Gorro rojo">
                 </div>
               </div>
-              <div class="detalles_del_producto">
-                <h5>Detalles del Producto</h5>
-                <ul>
-                  <li>Visera plana y ajustable</li>
-                  <li>Hilo duradero</li>
-                  <li>Logotipo en silicona</li>
-                  <li>Detalles fucsia</li>
-                </ul>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselGorro" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselGorro" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+            <div class="detalles_del_producto">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
+              <ul>
+                <li>50% poliacrílico reciclado</li>
+                <li>Hilo alta calidad</li>
+                <li>Logotipo bordado</li>
+                <li>Bordes doblados</li>
+              </ul>
             </div>
           </div>
-      
-
-
-
-          <!-- Medias -->
-          <div class="col-md-6 col-lg-4">
-            <div class="producto">
-              <h4>Medias</h4>
-              <div id="carouselMedias" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/medias_negras.png" class="d-block w-100 img-fluid img-hover" alt="Medias">
-                  </div>
-                </div>
-              </div>
-              <div class="detalles_del_producto">
-                <h5>Detalles del Producto</h5>
-                <ul>
-                  <li>50% reciclado</li>
-                  <li>Doble grosor</li>
-                  <li>Logotipo cocido</li>
-                  <li>Estampado doble</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <!-- Botella -->
-          <div class="col-md-6 col-lg-4">
-            <div class="producto">
-              <h4>Botella</h4>
-              <div id="carouselBotella1" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/accesorios_botella.jpg" class="d-block w-100 img-fluid img-hover" alt="Botella">
-                  </div>
-                </div>
-              </div>
-              <div class="detalles_del_producto">
-                <h5>Detalles del Producto</h5>
-                <ul>
-                  <li>800ml</li>
-                  <li>Acero inoxidable</li>
-                  <li>Mate finish</li>
-                  <li>Tapón de seguridad</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <!-- Mochila -->
-          <div class="col-md-6 col-lg-4">
-            <div class="producto">
-              <h4>Mochila 2</h4>
-              <div id="carouselMochila" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/accesorios_mochila.jpg" class="d-block w-100 img-fluid img-hover" alt="Mochila">
-                  </div>
-                </div>
-              </div>
-              <div class="detalles_del_producto">
-                <h5>Detalles del Producto</h5>
-                <ul>
-                  <li>800ml</li>
-                  <li>Acero inoxidable</li>
-                  <li>Mate finish</li>
-                  <li>Tapón de seguridad</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      
-          <!-- Pines -->
-          <div class="col-md-6 col-lg-4">
-            <div class="producto">
-              <h4>Pines</h4>
-              <div id="carouselPines" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/accesorios_pines.jpg" class="d-block w-100 img-fluid img-hover" alt="Pines">
-                  </div>
-                </div>
-              </div>
-              <div class="detalles_del_producto">
-                <h5>Detalles del Producto</h5>
-                <ul>
-                  <li>Diseño exclusivo</li>
-                  <li>Brilla en la oscuridad</li>
-                  <li>Material: Aleación de zinc</li>
-                  <li>La caja incluye 4 pines</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
         </div>
+
+        <!-- Gorra -->
+        <div class="col-md-6 col-lg-4">
+          <div class="producto">
+            <h4 class="titulo-producto">Gorra</h4>
+            <div id="carouselGorra" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/gorra_negra.jpg" class="d-block w-100 img-fluid img-hover" alt="Gorra negra">
+                </div>
+              </div>
+            </div>
+            <div class="detalles_del_producto">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
+              <ul>
+                <li>Visera plana y ajustable</li>
+                <li>Hilo duradero</li>
+                <li>Logotipo en silicona</li>
+                <li>Detalles fucsia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Medias -->
+        <div class="col-md-6 col-lg-4">
+          <div class="producto">
+            <h4 class="titulo-producto">Medias</h4>
+            <div id="carouselMedias" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/medias_negras.png" class="d-block w-100 img-fluid img-hover" alt="Medias">
+                </div>
+              </div>
+            </div>
+            <div class="detalles_del_producto">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
+              <ul>
+                <li>50% reciclado</li>
+                <li>Doble grosor</li>
+                <li>Logotipo cocido</li>
+                <li>Estampado doble</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botella -->
+        <div class="col-md-6 col-lg-4">
+          <div class="producto">
+            <h4 class="titulo-producto">Botella</h4>
+            <div id="carouselBotella1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/accesorios_botella.jpg" class="d-block w-100 img-fluid img-hover" alt="Botella">
+                </div>
+              </div>
+            </div>
+            <div class="detalles_del_producto">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
+              <ul>
+                <li>800ml</li>
+                <li>Acero inoxidable</li>
+                <li>Mate finish</li>
+                <li>Tapón de seguridad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mochila -->
+        <div class="col-md-6 col-lg-4">
+          <div class="producto">
+            <h4 class="titulo-producto">Mochila</h4>
+            <div id="carouselMochila" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/accesorios_mochila.jpg" class="d-block w-100 img-fluid img-hover" alt="Mochila">
+                </div>
+              </div>
+            </div>
+            <div class="detalles_del_producto">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
+              <ul>
+                <li>Compartimentos múltiples</li>
+                <li>Material resistente</li>
+                <li>Cierre reforzado</li>
+                <li>Diseño exclusivo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pines -->
+        <div class="col-md-6 col-lg-4">
+          <div class="producto">
+            <h4 class="titulo-producto">Pines</h4>
+            <div id="carouselPines" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/accesorios_pines.jpg" class="d-block w-100 img-fluid img-hover" alt="Pines">
+                </div>
+              </div>
+            </div>
+            <div class="detalles_del_producto">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
+              <ul>
+                <li>Diseño exclusivo</li>
+                <li>Brilla en la oscuridad</li>
+                <li>Material: Aleación de zinc</li>
+                <li>La caja incluye 4 pines</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
-      
+    </div>
+  </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-      
-
-
-
-
-
-    </header>
-<main></main>
-<footer>
-
+  <footer class="text-center py-4">
     <nav>
-        <div class="contenedormenues">
-        <a href="./remeras.html"class="menu">Remeras</a>
-        <a href="./Buzos.html"class="menu">Buzos</a>
-        <a href="./sirguiriscoleccion.html"class="menu">Nuestra casa</a>
-        </div>
-        </nav>
-        </header>
+      <div class="contenedormenues">
+        <a href="./remeras.html" class="menu">Remeras</a>
+        <a href="./Buzos.html" class="menu">Buzos</a>
+        <a href="./sirguiriscoleccion.html" class="menu">Nuestra casa</a>
+      </div>
+    </nav>
+  </footer>
 
-</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
-          
 </body>
 </html>

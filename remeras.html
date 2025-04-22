@@ -1,46 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RemerasSirguiris</title>
-    <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remeras Sirguiris</title>
+  <link rel="icon" href="../favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
-<a href="./index.html">
-<img src="img/logo_marca.png"width="50">
-</a><h2>RemeraSirguiris</h2>
-<header>
-
-
-<div class="contenedor_de_modelos">
-<img src="img/Remera_blanca_modelo.jpg"class="modelos_de_ropa">
-<img src="img/remera_b_modelo.jpg"class="modelos_de_ropa">
-<img src="img/remera_c_modelo.jpg"class="modelos_de_ropa">
-</div>
 
 <body>
+
+  <!-- Logo y título -->
+  <div class="text-center my-3">
+    <a href="../index.html">
+      <img src="img/" width="50" alt="Logo Sirguiris">
+    </a>
+    <h2 class="fw-bold">Remeras Sirguiris</h2>
+  </div>
+
+  <main>
+    <!-- Galería de modelos -->
+    <section class="contenedor_de_modelos text-center mb-4">
+      <img src="../img/Remera_blanca_modelo.jpg" class="modelos_de_ropa img-fluid" alt="Modelo remera blanca">
+      <img src="../img/remera_b_modelo.jpg" class="modelos_de_ropa img-fluid" alt="Modelo remera Bel">
+      <img src="../img/remera_c_modelo.jpg" class="modelos_de_ropa img-fluid" alt="Modelo remera Morbo">
+    </section>
+
+    <!-- Productos -->
     <div class="container py-4">
       <div class="row g-4">
-  
+
         <!-- REMERA MARCIN -->
         <div class="col-md-6 col-lg-4">
           <div class="producto">
-            <h4>RemeraMarcin</h4>
+            <h4>Remera Marcin</h4>
             <div id="carouselMarcin" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/remera_blanca.jpg" class="d-block w-100" alt="remera blanca">
+                  <img src="../img/remera_blanca.jpg" class="d-block w-100 img-fluid" alt="Remera Marcin blanca">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/remera_roja.jpg" class="d-block w-100" alt="remera roja">
+                  <img src="../img/remera_roja.jpg" class="d-block w-100 img-fluid" alt="Remera Marcin roja">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/remera_negra.jpg" class="d-block w-100" alt="remera negra">
+                  <img src="../img/remera_negra.jpg" class="d-block w-100 img-fluid" alt="Remera Marcin negra">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarcin" data-bs-slide="prev">
@@ -50,14 +55,13 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
               </button>
             </div>
-            <div class="detalles_del_producto">
-              <h5>Detalles del Producto</h5>
+            <div class="detalles_del_producto mt-3">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
               <ul>
                 <li>Talles: XS-S-M-L-XL</li>
                 <li>Colores: Blanco, Rojo, Negro</li>
-                <li>80% algodón y 20% poliéster</li>
-                <li>Tegido de 2 capas</li>
-               
+                <li>80% algodón / 20% poliéster</li>
+                <li>Tejido de 2 capas</li>
               </ul>
             </div>
           </div>
@@ -66,17 +70,17 @@
         <!-- REMERA BEL -->
         <div class="col-md-6 col-lg-4">
           <div class="producto">
-            <h4>Buzo Bel</h4>
+            <h4>Remera Bel</h4>
             <div id="carouselBel" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/remera_b_negra.jpg" class="d-block w-100" alt="remerab">
+                  <img src="../img/remera_b_negra.jpg" class="d-block w-100 img-fluid" alt="Remera Bel negra">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/remera_b_blanca.jpg" class="d-block w-100" alt="remerab">
+                  <img src="../img/remera_b_blanca.jpg" class="d-block w-100 img-fluid" alt="Remera Bel blanca">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/remera_b_rosa.jpg" class="d-block w-100" alt="remerab">
+                  <img src="../img/remera_b_rosa.jpg" class="d-block w-100 img-fluid" alt="Remera Bel rosa">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselBel" data-bs-slide="prev">
@@ -86,33 +90,32 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
               </button>
             </div>
-            <div class="detalles_del_producto">
-              <h5>Detalles del Producto</h5>
+            <div class="detalles_del_producto mt-3">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
               <ul>
                 <li>Talles: XS-S-M-L-XL</li>
                 <li>Colores: Blanco, Rosa, Negro</li>
-                <li>180g/m2</li>
+                <li>180 g/m²</li>
                 <li>Tejido de 3 capas</li>
               </ul>
             </div>
           </div>
         </div>
-  
 
-        <!-- BUZO MORBO -->
+        <!-- REMERA MORBO -->
         <div class="col-md-6 col-lg-4">
           <div class="producto">
-            <h4>Buzo Morbo</h4>
+            <h4>Remera Morbo</h4>
             <div id="carouselMorbo" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/remera_c_azul.jpg" class="d-block w-100" alt="remerac">
+                  <img src="../img/remera_c_azul.jpg" class="d-block w-100 img-fluid" alt="Remera Morbo azul">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/remera_c_blanca.jpg" class="d-block w-100" alt="remerac">
+                  <img src="../img/remera_c_blanca.jpg" class="d-block w-100 img-fluid" alt="Remera Morbo blanca">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/remera_c_negra.jpg" class="d-block w-100" alt="remerac">
+                  <img src="../img/remera_c_negra.jpg" class="d-block w-100 img-fluid" alt="Remera Morbo negra">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselMorbo" data-bs-slide="prev">
@@ -122,29 +125,33 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
               </button>
             </div>
-            <div class="detalles_del_producto">
-              <h5>Detalles del Producto</h5>
+            <div class="detalles_del_producto mt-3">
+              <h5 class="titulo-detalles">Detalles del Producto</h5>
               <ul>
                 <li>Talles: XS-S-M-L-XL</li>
-                <li>Colores: Azul, Blanco, Negro </li>
-                <li>Cuello Canalizado</li>
+                <li>Colores: Azul, Blanco, Negro</li>
+                <li>Cuello canalé</li>
                 <li>Estampado frontal y trasero</li>
               </ul>
             </div>
           </div>
         </div>
+
       </div>
     </div>
-<footer>
-    <nav>
-        <div class="contenedormenues">
-        <a href="./Accesorios.html"class="menu">Accesorios</a>
-        <a href="./remeras.html"class="menu">Remeras</a>
-        <a href="./Sirguiriscoleccion.html"class="menu">Nuestra casa</a>
-        </div>
-        </nav>
-    
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </main>
+
+  <!-- Footer con navegación -->
+  <footer class="text-center py-4 bg-light">
+    <div class="contenedormenues">
+      <a href="./accesorios.html" class="menu mx-2">Accesorios</a>
+      <a href="./buzos.html" class="menu mx-2">Buzos</a>
+      <a href="./Sirguiriscoleccion.html" class="menu mx-2">Nuestra casa</a>
+    </div>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
